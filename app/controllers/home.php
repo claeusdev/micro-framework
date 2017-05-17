@@ -7,15 +7,16 @@
 class Home extends Controller
 {
 
-  function __construct()
-  {
-    # code...
-  }
 
 
   public function index()
   {
-    echo 'home/index';
+    $this->view('home/index');
+  }
+
+  public function test()
+  {
+    echo "Maya a cow";
   }
 }
 

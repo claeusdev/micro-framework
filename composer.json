@@ -1,0 +1,10 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.27",
+        "illuminate/database": "^5.4",
+        "facebook/graph-sdk": "^5.5",
+        "illuminate/events": "^5.4",
+        "illuminate/filesystem": "^5.4",
+        "illuminate/console": "^5.4"
+    }
+}
