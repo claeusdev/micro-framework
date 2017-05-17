@@ -1,16 +1,9 @@
 <?php
 
-/**
- *
- */
-class User
+use Illuminate\Database\Eloquent\Model as Eloquent;
+
+class User extends Eloquent
 {
 
-  function __construct()
-  {
-    # code...
-  }
+  
 }
-
-
- ?>
